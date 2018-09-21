@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border:1px solid #eee;
+  margin: 20px auto;
+}
+
+a[href="login.php"], a[href="registro.php"], /*input[type="submit"],*/ a[href="logout.php"], a[href="verpeliculas.php"], a[href="verusuarios.php"], a[href="agregarpeli.php"], a[href="index.php"], a[href=""], .abutton {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin:20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a[href="login.php"]:hover, a[href="registro.php"]:hover, /*input[type="submit"]:hover,*/ a[href="logout.php"]:hover, a[href="verpeliculas.php"]:hover, a[href="verusuarios.php"]:hover, a[href="agregarpeli.php"]:hover, a[href="index.php"]:hover, a[href=""]:hover{
+  background-color: #00b8eb;
+}
+
+.inputbutton {
+  color: #fff;
+  background: #0098cb;
+  border: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.control-label.col-sm-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  /*flex-wrap: wrap;
+  text-align: right;
+  align-content: center;*/
+}
+
+input[type="text"].form-control, input[type="date"].form-control, input[type="number"].form-control, .col-sm-10.genero {
+  outline: none;
+  padding: 10px;
+  display: block;
+  width: 400px;
+  border-radius: 3px;
+  border:1px solid #eee;
+  margin: 0;
+}
